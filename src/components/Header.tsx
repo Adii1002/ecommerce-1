@@ -123,14 +123,14 @@ export default function Header() {
         isSignUpOpen={isSignUpOpen}
         onLoginClose={() => setIsLoginOpen(false)}
         onSignUpClose={() => setIsSignUpOpen(false)}
-        onSwitchToSignUp={() => {
-          setIsLoginOpen(false);
-          setIsSignUpOpen(true);
-        }}
-        onSwitchToLogin={() => {
-          setIsSignUpOpen(false);
-          setIsLoginOpen(true);
-        }}
+        // onSwitchToSignUp={() => {
+        //   setIsLoginOpen(false);
+        //   setIsSignUpOpen(true);
+        // }}
+        // onSwitchToLogin={() => {
+        //   setIsSignUpOpen(false);
+        //   setIsLoginOpen(true);
+        // }}
       />
     </>
   );
