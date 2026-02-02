@@ -1,20 +1,20 @@
 'use client';
 
 export default function Footer() {
-  const footerLinks = [
-    {
-      title: 'FIND A STORE',
-      links: ['Store Locator', 'Become a Member'],
-    },
-    {
-      title: 'HELP',
-      links: ['Send Us Feedback', 'Help Center', 'Orders', 'Returns'],
-    },
-    {
-      title: 'ABOUT LEVELING',
-      links: ['News', 'Careers', 'Investors', 'Sustainability'],
-    },
-  ];
+  // const footerLinks = [
+  //   {
+  //     title: 'FIND A STORE',
+  //     links: ['Store Locator', 'Become a Member'],
+  //   },
+  //   {
+  //     title: 'HELP',
+  //     links: ['Send Us Feedback', 'Help Center', 'Orders', 'Returns'],
+  //   },
+  //   {
+  //     title: 'ABOUT LEVELING',
+  //     links: ['News', 'Careers', 'Investors', 'Sustainability'],
+  //   },
+  // ];
 
   return (
     <footer className="w-full bg-black text-white">
