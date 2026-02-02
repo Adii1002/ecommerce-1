@@ -7,8 +7,6 @@ interface AuthModalsProps {
   isSignUpOpen: boolean;
   onLoginClose: () => void;
   onSignUpClose: () => void;
-  onSwitchToSignUp: () => void;
-  onSwitchToLogin: () => void;
 }
 
 export default function AuthModals({
@@ -16,8 +14,7 @@ export default function AuthModals({
   isSignUpOpen,
   onLoginClose,
   onSignUpClose,
-  onSwitchToSignUp,
-  onSwitchToLogin,
+
 }: AuthModalsProps) {
   const [loginData, setLoginData] = useState({ email: '', password: '' });
   const [signUpData, setSignUpData] = useState({
